@@ -1,3 +1,31 @@
+# DJ BoGoodSki
+
+A work in progress to support my electronic music-mixing hobby.  Learn more: 
+
+<ul>
+<li>[SoundCloud](https://soundcloud.com/sbogucki12)</li>
+<li>[Instagram](https://www.instagram.com/djbogoodski/)</li>
+<li>[Twitch](https://www.twitch.tv/bogoodski)</li>
+</ul>
+
+## Updates
+
+**June 6, 2021:**
+
+Setting up the layout:
+
+<img src="https://raw.githubusercontent.com/sbogucki12/djbogoodski/main/readmeFiles/layout0.gif" />
+<img src="https://raw.githubusercontent.com/sbogucki12/djbogoodski/main/readmeFiles/layoutDesktop0.jpg" />
+<img src="https://raw.githubusercontent.com/sbogucki12/djbogoodski/main/readmeFiles/layoutMobile0.jpg" />
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
