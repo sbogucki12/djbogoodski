@@ -10,6 +10,12 @@ A work in progress to support my electronic music-mixing hobby.  Learn more:
 
 ## Updates
 
+**June 9, 2021:**
+
+Added brand icons:
+
+<img src="https://raw.githubusercontent.com/sbogucki12/djbogoodski/main/readmeFiles/layoutDesktop1.jpg" />
+
 **June 6, 2021:**
 
 Setting up the layout:

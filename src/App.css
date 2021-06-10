@@ -10,6 +10,12 @@
 		min-height: 100vh;
 	}
 
+	.row {
+		display: flex;
+		justify-content: flex-start;		
+		align-items: center;
+	}
+
 	.logoContainer {
 		grid-area: 1 / 1 / 5 / 11;
 		background-color: var(--void);
@@ -78,6 +84,9 @@
 
 	.row {
 		margin-bottom: 2px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 
 	.logoContainer {
