@@ -13,7 +13,7 @@ const Contact = () => {
 
 	const handleSubmit = (e) => {
         e.preventDefault();
-		console.log(formData);
+		console.log(isCaptchaValid);
 	};
 
 	const handleChange = (e) => {
@@ -30,8 +30,8 @@ const Contact = () => {
 					Name:
 					<input type="text" value={formData.name} name="name" onChange={(e) => handleChange(e)} />
 				</label>
-				<Captcha isCaptchaValid={isCaptchaValid} />
-				{/*<input type="submit" value="Submit" />*/}
+				<Captcha isCaptchaValid={isCaptchaValid} setIsCaptchaValid={setIsCaptchaValid} />
+				<input type="submit" value="Submit" />
 			</form>
 		</div>
 	);

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const Captcha = () => {
+const Captcha = (props) => {
 	const [captchaValues, setCaptchaValues] = useState({
         randomNumber0: Math.floor(Math.random() * 10),
         randomNumber1: Math.floor(Math.random() * 10),
@@ -8,7 +8,7 @@ const Captcha = () => {
     });
 
     const solution = captchaValues.randomNumber0 + captchaValues.randomNumber1;
-
+	
 	const handleChange = (e) => {
 		e.preventDefault();
 		setCaptchaValues({
@@ -21,8 +21,8 @@ const Captcha = () => {
         console.log(solution)
 		e.preventDefault();
 		if (captchaValues.userValue == solution) {
-			alert(true);
-		} else alert(false);
+			props.setIsCaptchaValid(true); 			
+		} else props.setIsCaptchaValid(false);
 	};
 
 	return (
@@ -34,6 +34,9 @@ const Captcha = () => {
 			<input type="text" value={captchaValues.userValue} name="captcha" onChange={(e) => handleChange(e)} />
 
 			<button onClick={(e) => handleSubmit(e)}>Submit</button>
+			<p>
+				{props.isCaptchaValid ? `Good!` : `X`}
+			</p>
 		</div>
 	);
 };

@@ -10,6 +10,12 @@ A work in progress to support my electronic music-mixing hobby.  Learn more:
 
 ## Updates
 
+**June 14, 2021:**
+
+Trying different color themes:
+
+<img src="https://raw.githubusercontent.com/sbogucki12/djbogoodski/main/readmeFiles/colors0.jpg" />
+
 **June 10, 2021:**
 
 Adding a contact form:
