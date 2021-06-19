@@ -1,24 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+
 .highlightContainer {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    color: var(--stark);
+    color: var(--alternative);
 }
 
 .highlightImage {
-    width: 60vw; 
-    height: 280px; 
+    border: 1px solid var(--secondary);
+    box-shadow: 0px 2px 5px var(--alternative);
 }
 
 .highlightRowCardContainer {
-    background-color: var(--stark);
-    border: 3px solid var(--void);
-    box-shadow: -1px 3px 5px var(--void);
-    color: var(--void); 
+    background-color: var(--primary);
+    border: 2px solid var(--secondary);
+    box-shadow: -1px 3px 5px var(--alternative);
+    color: var(--secondary);
     min-width: 60vw; 
     min-height: 60%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;    
+    font-family: 'Baloo Tammudu 2', cursive;
 }

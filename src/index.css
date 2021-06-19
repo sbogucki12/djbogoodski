@@ -8,11 +8,11 @@
 
 
 html {
-  --void: #000000; 
-  --fushcia: rgb(97, 96, 96);
-  --jewel: rgb(150, 138, 138);
-  --stark: #ffffff; 
-  --neongreen: #383636;
+  --primary: #000000; 
+  --primary-light: #494E6B;
+  --secondary: #985E6D;
+  --secondary-light: #98878F; 
+  --alternative: #f8f8ff;
 }
 
 body {
@@ -22,7 +22,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--stark);
+  background-color: var(--alternative);
 }
 
 code {

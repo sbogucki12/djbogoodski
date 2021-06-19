@@ -11,7 +11,7 @@ const Highlight = () => {
 	return (
 		<div className="highlightContainer">
 			<h1>{highlightData.title}</h1>
-			<Image src={highlightData.image} sx={{ width: 250, height: '70%', borderRadius: 8 }} />
+			<Image src={highlightData.image} sx={{ width: 250, height: '70%', borderRadius: 8 }} className="highlightImage" />
 			<p>
 				<a href={highlightData.link}>Listen Now!</a>
 			</p>

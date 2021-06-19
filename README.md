@@ -10,6 +10,12 @@ A work in progress to support my electronic music-mixing hobby.  Learn more:
 
 ## Updates
 
+**June 18, 2021:**
+
+Working on a custom makeshift captcha type thing:
+
+<img src="https://raw.githubusercontent.com/sbogucki12/djbogoodski/main/readmeFiles/captcha0GIF.gif" />
+
 **June 14, 2021:**
 
 Trying different color themes:

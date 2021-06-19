@@ -1,5 +1,5 @@
 .contactContainer {
-    color: var(--fushcia);
+    color: var(--secondary-light);    
 }
 
 .centerAlign {
@@ -8,3 +8,18 @@
     justify-content: center;
     flex-direction: column;
 }
+
+.input-container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+    
+}
+
+.icon {
+    padding: 10px;
+    background: dodgerblue;
+    color: white;
+    min-width: 50px;
+    text-align: center;    
+  }
