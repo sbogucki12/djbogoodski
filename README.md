@@ -1,6 +1,6 @@
 # DJ BoGoodSki
 
-A work in progress to support my electronic music-mixing hobby.  Learn more: 
+<p>A work in progress to support my electronic music-mixing hobby.  Learn more:</p> 
 
 <ul>
 <li> [SoundCloud](https://soundcloud.com/sbogucki12) </li>
@@ -12,7 +12,11 @@ A work in progress to support my electronic music-mixing hobby.  Learn more:
 
 **June 18, 2021:**
 
-Working on a custom makeshift captcha type thing:
+<p>Responsive:</p>
+
+<img src="https://raw.githubusercontent.com/sbogucki12/djbogoodski/main/readmeFiles/dynamicGIF.gif" />
+
+<p>Working on a custom makeshift captcha type thing:</p>
 
 <img src="https://raw.githubusercontent.com/sbogucki12/djbogoodski/main/readmeFiles/captcha0GIF.gif" />
 

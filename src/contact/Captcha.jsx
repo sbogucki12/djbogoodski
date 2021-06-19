@@ -7,7 +7,8 @@ const Captcha = (props) => {
 		randomNumber0: Math.floor(Math.random() * 10),
 		randomNumber1: Math.floor(Math.random() * 10),
 		userValue: 0,
-		captchaIcon: faSignInAlt
+		captchaIcon: faSignInAlt,
+		captchaIconStyle: null,
 	});
 
 	const solution = captchaValues.randomNumber0 + captchaValues.randomNumber1;
@@ -20,27 +21,28 @@ const Captcha = (props) => {
 		});
 	};
 
-	const handleSubmit = (e) => {
-		console.log(solution);
+	const handleSubmit = (e) => {		
 		e.preventDefault();
 		if (captchaValues.userValue == solution) {
 			props.setIsCaptchaValid(true);
 			setCaptchaValues({
 				...captchaValues,
-				captchaIcon: faCheckCircle
-			})
+				captchaIcon: faCheckCircle,
+				captchaIconStyle: 'contactIconBackgroundSuccessful',
+			});
 		} else {
 			props.setIsCaptchaValid(false);
 			setCaptchaValues({
 				...captchaValues,
-				captchaIcon: faTimesCircle
-			})
+				captchaIcon: faTimesCircle,
+				captchaIconStyle: 'contactIconBackgroundUnsuccessful',
+			});
 			setTimeout(() => {
 				setCaptchaValues({
-					...captchaValues, 
-					captchaIcon: faSignInAlt
-				})
-			}, 1000)
+					...captchaValues,
+					captchaIcon: faSignInAlt,
+				});
+			}, 500);
 		}
 	};
 
@@ -50,15 +52,19 @@ const Captcha = (props) => {
 			<p>
 				What is {captchaValues.randomNumber0} + {captchaValues.randomNumber1}?
 			</p>
-			<div class="input-container">
-				
+			<div className="contactInputContainer">
 				<input
-					class="input-field"
+					className="contactCaptchaInputField"
 					value={captchaValues.userValue}
 					name="captcha"
 					onChange={(e) => handleChange(e)}
+					type="number"
 				/>
-				<FontAwesomeIcon icon={captchaValues.captchaIcon} className="icon" onClick={(e) => handleSubmit(e)} />
+				<FontAwesomeIcon
+					icon={captchaValues.captchaIcon}
+					className={`contactIcon ${captchaValues.captchaIconStyle}`}
+					onClick={(e) => handleSubmit(e)}
+				/>
 			</div>
 		</div>
 	);

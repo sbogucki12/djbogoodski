@@ -9,17 +9,39 @@
     flex-direction: column;
 }
 
-.input-container {
+.contactInputContainer {
     display: flex;
     width: 100%;
     margin-bottom: 15px;
     
 }
 
-.icon {
+.contactCaptchaInputField {
+    width: 100%;
     padding: 10px;
-    background: dodgerblue;
-    color: white;
+    outline: none;
+  }
+  
+  /*.contactCaptchaInputField:focus {
+    border: 2px solid dodgerblue;
+  }*/
+
+.contactIcon {
+    padding: 10px;
+    background: var(--secondary-light);
+    color: var(--alternative);
+    border: 2px solid var(--alternative);
     min-width: 50px;
     text-align: center;    
   }
+
+.contactIconBackgroundSuccessful {
+    background: var(--primary);
+    border: 2px solid var(--secondary);
+    color: var(--secondary);
+}
+
+.contactIconBackgroundUnsuccessful {
+    background: var(--secondary);
+    border: 2px solid var(--secondary-light);
+}

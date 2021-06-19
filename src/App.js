@@ -49,6 +49,10 @@ function App() {
       <div className="buttonRightInstagramContainer row"><FontAwesomeIcon icon={faInstagram} />IG</div>
       <div className="buttonRightTwitchContainer row"><FontAwesomeIcon icon={faTwitch} />Twitch</div>
       <div className="buttonRightContactContainer row" onClick={() => handleContactClick()}><FontAwesomeIcon icon={faEnvelope} />Contact</div>
+      <div className="div8" />
+      <div className="div9" />
+      <div className="div10" />
+      <div className="div11" />
       <div className="highlightRowContainer row" onClick={() => handleHighlightClick()}>
         <HighlightRow />
       </div>

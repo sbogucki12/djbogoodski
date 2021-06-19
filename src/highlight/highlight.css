@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    color: var(--alternative);
+    color: var(--alternative);    
 }
 
 .highlightImage {
@@ -18,10 +18,11 @@
     border: 2px solid var(--secondary);
     box-shadow: -1px 3px 5px var(--alternative);
     color: var(--secondary);
-    min-width: 60vw; 
-    min-height: 60%;
-    display: flex;
-    justify-content: center;
-    align-items: center;    
+    width: 95vw; 
+    margin-top: 5px;
+    margin-bottom: 5px;
     font-family: 'Baloo Tammudu 2', cursive;
+    display: flex;    
+    justify-content: space-around;
+    align-items: center;   
 }
