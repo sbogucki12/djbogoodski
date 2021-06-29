@@ -10,6 +10,13 @@
 
 ## Updates
 
+**June 29, 2021:**
+
+<p>Setting up an Azure Serverless Function.</p>
+<p><i>Integrated with SendGrid. Will take in user input from form and, via the function, send content to my email inbox.</i></p>
+
+<img src="https://raw.githubusercontent.com/sbogucki12/djbogoodski/main/readmeFiles/sendgrid.jpg" />
+
 **June 18, 2021:**
 
 <p>Responsive:</p>
