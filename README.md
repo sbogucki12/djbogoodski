@@ -10,6 +10,15 @@
 
 ## Updates
 
+**July 1, 2021:**
+
+<p>I was thrown for a loop because my Azure Function works everywhere except in Postman.  But I spent a couple hours trying to fix the function before I settled on the error being Postman's, not of the Function. </p>
+
+
+<img src="https://raw.githubusercontent.com/sbogucki12/djbogoodski/main/readmeFiles/functionBindings.jpg" />
+<img src="https://raw.githubusercontent.com/sbogucki12/djbogoodski/main/readmeFiles/functionScript.jpg" />
+
+
 **June 29, 2021:**
 
 <p>Setting up an Azure Serverless Function.</p>
