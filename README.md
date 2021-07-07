@@ -13,8 +13,8 @@
 **July 6, 2021:**
 
 <ul>
-</li>Added an additional output binding to the Azure Function so it returns a standard HTTP response in JSON.</li>
-</li>Calling the Azure Function in the React app.  Set up a quick button with click-event to test.</li>
+<li>Added an additional output binding to the Azure Function so it returns a standard HTTP response in JSON.</li>
+<li>Calling the Azure Function in the React app.  Set up a quick button with click-event to test.</li>
 </ul>
 
 <img src="https://raw.githubusercontent.com/sbogucki12/djbogoodski/main/readmeFiles/output_bindings.jpg" />
