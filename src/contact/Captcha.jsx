@@ -23,7 +23,7 @@ const Captcha = (props) => {
 
 	const handleSubmit = (e) => {		
 		e.preventDefault();
-		if (captchaValues.userValue == solution) {
+		if (Number(captchaValues.userValue) === Number(solution)) {
 			props.setIsCaptchaValid(true);
 			setCaptchaValues({
 				...captchaValues,
