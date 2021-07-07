@@ -1,6 +1,5 @@
 import highlightData from './cheatcodevol8.json';
 import './highlight.css';
-import { Image } from 'rebass';
 import http from '../utility/http';
 
 const Highlight = () => {
@@ -21,7 +20,7 @@ const Highlight = () => {
 	return (
 		<div className="highlightContainer">
 			<h1>{highlightData.title}</h1>
-			<Image src={highlightData.image} sx={{ width: 250, height: '70%', borderRadius: 8 }} className="highlightImage" />
+			<img src={highlightData.image} style={{ width: 250, height: '70%', borderRadius: 8 }} className="highlightImage" alt="Cheat Code volume 8"/>
 			<p>
 				<a href={highlightData.link}>Listen Now!</a>
 			</p>

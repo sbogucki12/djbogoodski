@@ -1,16 +1,15 @@
 import './highlight.css';
-import { Image } from 'rebass';
 import highlightData from './cheatcodevol8.json';
 
 const HighlightRow = () => {
 	return (
 		<div className="highlightRowCardContainer">
 			<div>
-				<Image
+				<img
 					src={highlightData.image}
-					sx={{ width: '15vw', height: '17vh', borderRadius: 8 }}
-					className="highlightImage"
-                    style={{marginTop: '7%'}}
+					style={{ width: '15vw', height: '17vh', borderRadius: 8, marginTop: '7%' }}
+					className="highlightImage"                    
+					alt="Cheat Code volume 9"
 				/>
 			</div>
 			<div>Cheat Code Radio vol. 8</div>
