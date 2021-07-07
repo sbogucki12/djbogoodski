@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    color: var(--alternative);    
+    color: var(--alternative); 
 }
 
 .highlightImage {
@@ -25,4 +25,5 @@
     display: flex;    
     justify-content: space-around;
     align-items: center;   
+    border-radius: 2%;
 }

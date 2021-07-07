@@ -10,6 +10,16 @@
 
 ## Updates
 
+**July 6, 2021:**
+
+<ul>
+</li>Added an additional output binding to the Azure Function so it returns a standard HTTP response in JSON.</li>
+</li>Calling the Azure Function in the React app.  Set up a quick button with click-event to test.</li>
+</ul>
+
+<img src="https://raw.githubusercontent.com/sbogucki12/djbogoodski/main/readmeFiles/output_bindings.jpg" />
+
+
 **July 1, 2021:**
 
 <p>I was thrown for a loop because my Azure Function works everywhere except in Postman.  But I spent a couple hours trying to fix the function before I settled on the error being Postman's, not of the Function. </p>
