@@ -10,7 +10,7 @@ const Highlight = () => {
 	));
 
 	const handleClick = () => {
-		http('https://djbogoodskiapi.azurewebsites.net/api/sendEmail?code=' + process.env.REACT_APP_REPLACEINPRODUCTION_SendGrid, 'POST', {
+		http('https://djbogoodskiapi.azurewebsites.net/api/SendGrid1?code=' + process.env.REACT_APP_SENDGRID_KEY, 'POST', {
 			"subject": "This is from development.",
 			"content": "Proin hendrerit aliquet neque, sit amet tempor urna ultrices sit amet. Vivamus scelerisque eros dui, et sagittis massa rhoncus ac. Nulla maximus risus rhoncus vestibulum lobortis. Fusce cursus justo quis diam ullamcorper porttitor. Donec non porta augue, nec vestibulum libero. Vivamus finibus, lectus et pretium tempus, arcu augue lacinia ex, cursus vestibulum dolor velit vel mauris. Integer rhoncus lacinia sollicitudin. Aenean auctor sapien vel euismod molestie. Morbi velit velit, faucibus in ante id, pretium molestie odio. Sed ultricies eros varius arcu euismod mattis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris quis justo sit amet est consectetur aliquet. Quisque bibendum pellentesque turpis, sed porta diam bibendum non. Nullam eget rhoncus diam.",
 			"customerName": "Steve B.",
