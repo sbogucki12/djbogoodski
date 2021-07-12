@@ -1,47 +1,142 @@
 .contactContainer {
-    color: var(--secondary-light);    
+  color: var(--secondary);
+  font-weight: bolder;
+  font-size: 1.5rem;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.contactCaptchaTitleIcon {
+  font-size: 3rem;
+  stroke: var(--alternative);
+  stroke-width: 5;
+  margin-bottom: 3%;
+}
+
+textarea {
+  border: 3px solid var(--primary-light);
+  border-radius: 3%;
+  box-shadow: -2px 3px 2px var(--secondary-light);
+  margin-top: 2%;
 }
 
 .centerAlign {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .contactInputContainer {
-    display: flex;
-    width: 100%;
-    margin-bottom: 15px;
-    
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.contactInput {
+  width: 300px;
+  max-width: 80vw;
+  border: 3px solid var(--primary-light);
+  border-radius: 3%;
+  box-shadow: -2px 3px 2px var(--secondary-light);
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.contactCaptchaContainer {
+  margin-top: 5%;
+}
+
+.contactCaptchaInputContainer {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 75;
+  margin-bottom: 15px;
 }
 
 .contactCaptchaInputField {
-    width: 100%;
-    padding: 10px;
-    outline: none;
-  }
-  
-  /*.contactCaptchaInputField:focus {
+  width: 30%;
+  padding: 10px;
+  outline: none;
+  border-top: 3px solid var(--primary-light);
+  border-bottom: 3px solid var(--primary-light);
+  border-left: 3px solid var(--primary-light);
+  border-radius: 3%;
+  box-shadow: -2px 1px 5px var(--secondary-light);
+}
+
+/*.contactCaptchaInputField:focus {
     border: 2px solid dodgerblue;
   }*/
 
 .contactIcon {
-    padding: 10px;
-    background: var(--secondary-light);
-    color: var(--alternative);
-    border: 2px solid var(--alternative);
-    min-width: 50px;
-    text-align: center;    
-  }
+  padding: 10px;
+  background: var(--secondary);
+  color: var(--alternative);
+  border-top: 3px solid var(--primary-light);
+  border-bottom: 3px solid var(--primary-light);
+  border-right: 3px solid var(--primary-light);
+  min-width: 50px;
+  text-align: center;
+  border-radius: 3%;
+  box-shadow: -2px 1px 5px var(--secondary-light);
+}
 
 .contactIconBackgroundSuccessful {
-    background: var(--primary);
-    border: 2px solid var(--secondary);
-    color: var(--secondary);
+  background: var(--primary);
+  border-top: 3px solid var(--secondary);
+  border-bottom: 3px solid var(--secondary);
+  border-right: 3px solid var(--secondary);
+  color: var(--secondary);
 }
 
 .contactIconBackgroundUnsuccessful {
-    background: var(--secondary);
-    border: 2px solid var(--secondary-light);
+  background: var(--primary-light);
+  border-top: 3px solid var(--secondary-light);
+  border-bottom: 3px solid var(--secondary-light);
+  border-right: 3px solid var(--secondary-light);
+}
+
+.contactContentLengthMessage {
+  color: var(--secondary-light);
+  font-weight: lighter;
+  font-size: small;
+  align-self: flex-end;
+}
+
+.captchaTitle {
+  color: var(--secondary-light);
+  font-size: 2rem;
+}
+
+.captchaText {
+  font-size: 1rem;
+  margin-bottom: 3%;
+}
+
+.captchaSubmitButton {
+  background-color: var(--secondary-light);
+  box-shadow: -1px 1px 2px var(--secondary);
+  color: var(--alternative);
+  height: 30px;
+  width: 75px;
+  border-radius: 5%;
+  margin-top: 3%;
+}
+
+.captchaSubmitButton:hover {
+  background-color: var(--secondary);
+}
+
+.captchaSubmitButton:active {
+  box-shadow: -1px 1px 2px var(--alternative);
+  color: var(--primary);
+}
+
+.captchaFormResponseText {
+  font-size: 1.5rem;
+  margin: 2%;
+  text-align: center;
+  font-weight: normal;
 }

@@ -10,6 +10,16 @@
 
 ## Updates
 
+**July 12, 2021:**
+
+<ul>
+<li>Styling custom contact form.</li>
+</ul>
+
+<img src="https://raw.githubusercontent.com/sbogucki12/djbogoodski/main/readmeFiles/contactFormGIF.gif" />
+
+
+
 **July 6, 2021:**
 
 <ul>
