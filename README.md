@@ -10,6 +10,15 @@
 
 ## Updates
 
+**July 13, 2021:**
+
+<ul>
+<li>Working on some general styling.</li>
+</ul>
+
+<img src="https://raw.githubusercontent.com/sbogucki12/djbogoodski/main/readmeFiles/stylingGIF.gif" />
+
+
 **July 12, 2021:**
 
 <ul>

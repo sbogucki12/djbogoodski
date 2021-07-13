@@ -1,0 +1,313 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+.header {
+  background-color: var(--primary);
+  margin-bottom: 5px;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  min-height: 45px;
+  border-bottom: 3px solid var(--secondary);
+  box-shadow: 0 2px 5px var(--secondary);
+}
+
+.headerContainer {
+  color: var(--alternative);
+  min-height: 40px;
+  height: 100%;
+  display: flex;
+  margin-left: 1%;
+  align-items: center;
+  padding-top: 5px;
+}
+
+.headerLogoText {
+  color: var(--alternative);
+  font-family: "Righteous", cursive;
+  padding-left: 5px;
+  font-family: "Righteous", cursive;
+  -webkit-text-stroke: 1px var(--secondary);
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 600px) {
+  .container {
+    display: grid;
+    grid-template-columns: 60 40;
+    grid-template-rows: repeat(8, 0.4fr) 0.3fr 0.1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+  }
+
+  .row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+  }
+
+  .logoRowContainer {
+    grid-area: 1 / 1 / 9 / 5;
+    background-color: var(--primary);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--secondary);
+    box-shadow: 0px 2px 3px var(--primary);
+  }
+
+  .highlightRowContainer {
+    grid-area: 9 / 1 / 10 / 6;
+    border: 2px solid var(--primary);
+    box-shadow: 0px 5px 5px var(--secondary);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(152, 135, 143);
+    background: -moz-linear-gradient(
+      180deg,
+      rgba(152, 135, 143, 0.9054972330729166) 0%,
+      rgba(152, 94, 109, 0.4433123591233369) 19%,
+      rgba(0, 0, 0, 0.9363095580028886) 81%
+    );
+    background: -webkit-linear-gradient(
+      180deg,
+      rgba(152, 135, 143, 0.9054972330729166) 0%,
+      rgba(152, 94, 109, 0.4433123591233369) 19%,
+      rgba(0, 0, 0, 0.9363095580028886) 81%
+    );
+    background: linear-gradient(
+      180deg,
+      rgba(152, 135, 143, 0.9054972330729166) 0%,
+      rgba(152, 94, 109, 0.4433123591233369) 19%,
+      rgba(0, 0, 0, 0.9363095580028886) 81%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#98878f",endColorstr="#000000",GradientType=1);
+  }
+
+  .logoRowContainer video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: 0;
+    -webkit-filter: brightness(0.6); /* Safari 6.0 - 9.0 */
+    filter: brightness(0.6);
+  }
+
+  .logoTextContainer {
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    color: var(--primary);
+    background-color: #e7dfdd1f;
+    box-shadow: -1px 2px 5px var(--alternative);
+    height: 60%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--secondary);
+    border-radius: 5%;
+    font-family: "Righteous", cursive;
+    -webkit-text-stroke: 1px var(--secondary);
+    font-size: 3rem;
+  }
+
+  .linkIcon {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .buttonRightSoundCloudContainer {
+    grid-area: 1 / 5 / 2 / 6;
+    background-color: var(--primary);
+    box-shadow: -2px 3px 5px var(--primary-light);
+    border: 1px solid var(--alternative);
+    color: var(--secondary-light);
+  }
+
+  .buttonRightSoundCloudContainer:active {
+    box-shadow: -2px 3px 5px var(--primary);
+  }
+
+  .buttonRightInstagramContainer {
+    grid-area: 2 / 5 / 3 / 6;
+    background-color: var(--secondary);
+    border: 1px solid var(--primary);
+    box-shadow: -2px 3px 5px var(--primary-light);
+    color: var(--primary);
+  }
+
+  .buttonRightInstagramContainer:active {
+    box-shadow: -2px 3px 5px var(--primary);
+  }
+
+  .buttonRightTwitchContainer {
+    grid-area: 3 / 5 / 4 / 6;
+    background-color: var(--secondary-light);
+    border: 1px solid var(--alternative);
+    box-shadow: -2px 3px 5px var(--primary-light);
+    color: var(--primary);
+  }
+
+  .buttonRightTwitchContainer:active {
+    box-shadow: -2px 3px 5px var(--primary);
+  }
+
+  .buttonRightContactContainer {
+    grid-area: 4 / 5 / 5 / 6;
+    background-color: var(--alternative);
+    border: 1px solid var(--secondary-light);
+    box-shadow: -2px 1px 5px var(--primary);
+    color: var(--primary);
+  }
+
+  .buttonRightContactContainer:active {
+    box-shadow: 0px 3px 5px var(--alternative);
+  }
+
+  .div8 {
+    grid-area: 5 / 5 / 6 / 6;
+  }
+  .div9 {
+    grid-area: 6 / 5 / 7 / 6;
+  }
+  .div10 {
+    grid-area: 7 / 5 / 8 / 6;
+  }
+  .div11 {
+    grid-area: 8 / 5 / 9 / 6;
+  }
+
+  .footer {
+    grid-area: 10 / 1 / 11 / 6;
+    background-color: var(--secondary-light);
+  }
+
+  .footerRowContainer {
+    font-size: xx-small;
+    padding-top: 2%;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  .row {
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: center;	
+    align-items: center;
+	text-decoration: none;
+	background-color: var(--secondary-light);	
+  }
+
+  .logoRowContainer {
+    background-color: var(--primary);
+    min-height: 50vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--secondary);
+    box-shadow: 0px 2px 3px var(--primary);
+	margin-bottom: 5px;
+  }
+
+  .logoRowContainer video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: 0;
+    -webkit-filter: brightness(0.6); /* Safari 6.0 - 9.0 */
+    filter: brightness(0.6);
+  }
+
+  .logoTextContainer {
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    color: var(--primary);
+    background-color: #e7dfdd1f;
+    min-height: 200px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--secondary);
+    border-radius: 3%;
+    font-family: "Righteous", cursive;
+    -webkit-text-stroke: 1px var(--secondary);
+    font-size: 2rem;
+    box-shadow: -1px 2px 5px var(--alternative);
+  }
+
+  .linkIcon {
+	  margin-right: 10px;
+  }
+
+  .buttonRightSoundCloudContainer {
+    /*background-color: var(--fushcia);*/
+    border: 3px solid var(--primary);
+	color: var(--primary);
+	justify-content: flex-start;
+	padding-left: 5%;
+  }
+  .buttonRightInstagramContainer {
+    /*background-color: var(--jewel);*/
+    border: 3px solid var(--primary);
+	color: var(--primary);
+	justify-content: flex-start;
+	padding-left: 5%;
+  }
+  .buttonRightTwitchContainer {
+    /*background-color: var(--stark);*/
+    border: 3px solid var(--primary);
+	color: var(--primary);
+	justify-content: flex-start;
+	padding-left: 5%;
+  }
+  .buttonRightContactContainer {
+    /*background-color: var(--neongreen);*/
+    border: 3px solid var(--primary);
+	color: var(--primary);
+	justify-content: flex-start;
+	padding-left: 5%;
+	margin-bottom: 5px;
+  }
+  .highlightRowContainer {
+	padding-top: 1px;
+    background: rgb(152, 135, 143);
+    background: -moz-linear-gradient(
+      180deg,
+      rgba(152, 135, 143, 0.9054972330729166) 0%,
+      rgba(152, 94, 109, 0.4433123591233369) 19%,
+      rgba(0, 0, 0, 0.9363095580028886) 81%
+    );
+    background: -webkit-linear-gradient(
+      180deg,
+      rgba(152, 135, 143, 0.9054972330729166) 0%,
+      rgba(152, 94, 109, 0.4433123591233369) 19%,
+      rgba(0, 0, 0, 0.9363095580028886) 81%
+    );
+    background: linear-gradient(
+      180deg,
+      rgba(152, 135, 143, 0.9054972330729166) 0%,
+      rgba(152, 94, 109, 0.4433123591233369) 19%,
+      rgba(0, 0, 0, 0.9363095580028886) 81%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#98878f",endColorstr="#000000",GradientType=1);
+    border: 3px solid var(--primary);
+  }
+  .footerRowContainer {    
+	font-size: xx-small;
+  }
+}
