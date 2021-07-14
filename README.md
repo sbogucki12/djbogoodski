@@ -1,6 +1,6 @@
 # DJ BoGoodSki
 
-<p>A work in progress to support my electronic music-mixing hobby.  Learn more:</p> 
+<p>A work in progress to support my electronic music-mixing hobby.  Learn more:</p>
 
 <ul>
 <li> [SoundCloud](https://soundcloud.com/sbogucki12) </li>
@@ -18,7 +18,6 @@
 
 <img src="https://raw.githubusercontent.com/sbogucki12/djbogoodski/main/readmeFiles/stylingGIF.gif" />
 
-
 **July 12, 2021:**
 
 <ul>
@@ -26,8 +25,6 @@
 </ul>
 
 <img src="https://raw.githubusercontent.com/sbogucki12/djbogoodski/main/readmeFiles/contactFormGIF.gif" />
-
-
 
 **July 6, 2021:**
 
@@ -38,15 +35,12 @@
 
 <img src="https://raw.githubusercontent.com/sbogucki12/djbogoodski/main/readmeFiles/output_bindings.jpg" />
 
-
 **July 1, 2021:**
 
 <p>I was thrown for a loop because my Azure Function works everywhere except in Postman.  But I spent a couple hours trying to fix the function before I settled on the error being Postman's, not of the Function. </p>
 
-
 <img src="https://raw.githubusercontent.com/sbogucki12/djbogoodski/main/readmeFiles/functionBindings.jpg" />
 <img src="https://raw.githubusercontent.com/sbogucki12/djbogoodski/main/readmeFiles/functionScript.jpg" />
-
 
 **June 29, 2021:**
 
@@ -90,14 +84,6 @@ Setting up the layout:
 <img src="https://raw.githubusercontent.com/sbogucki12/djbogoodski/main/readmeFiles/layout0GIF.gif" />
 <img src="https://raw.githubusercontent.com/sbogucki12/djbogoodski/main/readmeFiles/layoutDesktop0.jpg" />
 <img src="https://raw.githubusercontent.com/sbogucki12/djbogoodski/main/readmeFiles/layoutMobile0.jpg" />
-
-
-
-
-
-
-
-
 
 # Getting Started with Create React App
 

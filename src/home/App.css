@@ -203,10 +203,10 @@
   .row {
     margin-bottom: 2px;
     display: flex;
-    justify-content: center;	
+    justify-content: center;
     align-items: center;
-	text-decoration: none;
-	background-color: var(--secondary-light);	
+    text-decoration: none;
+    background-color: var(--secondary-light);
   }
 
   .logoRowContainer {
@@ -218,7 +218,7 @@
     justify-content: center;
     border: 2px solid var(--secondary);
     box-shadow: 0px 2px 3px var(--primary);
-	margin-bottom: 5px;
+    margin-bottom: 5px;
   }
 
   .logoRowContainer video {
@@ -251,40 +251,40 @@
   }
 
   .linkIcon {
-	  margin-right: 10px;
+    margin-right: 10px;
   }
 
   .buttonRightSoundCloudContainer {
     /*background-color: var(--fushcia);*/
     border: 3px solid var(--primary);
-	color: var(--primary);
-	justify-content: flex-start;
-	padding-left: 5%;
+    color: var(--primary);
+    justify-content: flex-start;
+    padding-left: 5%;
   }
   .buttonRightInstagramContainer {
     /*background-color: var(--jewel);*/
     border: 3px solid var(--primary);
-	color: var(--primary);
-	justify-content: flex-start;
-	padding-left: 5%;
+    color: var(--primary);
+    justify-content: flex-start;
+    padding-left: 5%;
   }
   .buttonRightTwitchContainer {
     /*background-color: var(--stark);*/
     border: 3px solid var(--primary);
-	color: var(--primary);
-	justify-content: flex-start;
-	padding-left: 5%;
+    color: var(--primary);
+    justify-content: flex-start;
+    padding-left: 5%;
   }
   .buttonRightContactContainer {
     /*background-color: var(--neongreen);*/
     border: 3px solid var(--primary);
-	color: var(--primary);
-	justify-content: flex-start;
-	padding-left: 5%;
-	margin-bottom: 5px;
+    color: var(--primary);
+    justify-content: flex-start;
+    padding-left: 5%;
+    margin-bottom: 5px;
   }
   .highlightRowContainer {
-	padding-top: 1px;
+    padding-top: 1px;
     background: rgb(152, 135, 143);
     background: -moz-linear-gradient(
       180deg,
@@ -307,7 +307,7 @@
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#98878f",endColorstr="#000000",GradientType=1);
     border: 3px solid var(--primary);
   }
-  .footerRowContainer {    
-	font-size: xx-small;
+  .footerRowContainer {
+    font-size: xx-small;
   }
 }
