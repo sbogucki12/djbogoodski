@@ -42,7 +42,7 @@ const Highlight = () => {
         }}
       >
         <a
-          href="https://soundcloud.com/sbogucki12"
+          href="https://soundcloud.com/djbogoodski"
           title="IG: DJBoGoodSki"
           target="_blank"
           rel="noreferrer noopener"
@@ -56,7 +56,7 @@ const Highlight = () => {
         </a>{" "}
         ·{" "}
         <a
-          href="https://soundcloud.com/sbogucki12/cheat-code-radio-vol-8"
+          href="https://soundcloud.com/djbogoodski/cheat-code-radio-vol-8"
           title="Cheat Code Radio Vol. 8"
           target="_blank"
           rel="noreferrer noopener"

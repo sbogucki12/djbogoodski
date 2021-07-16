@@ -51,7 +51,7 @@
     background-color: var(--primary);
     position: relative;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     border: 2px solid var(--secondary);
     box-shadow: 0px 2px 3px var(--primary);
@@ -104,7 +104,7 @@
     color: var(--primary);
     background-color: #e7dfdd1f;
     box-shadow: -1px 2px 5px var(--alternative);
-    height: 60%;
+    height: 50%;
     width: 80%;
     display: flex;
     align-items: center;
@@ -114,6 +114,7 @@
     font-family: "Righteous", cursive;
     -webkit-text-stroke: 1px var(--secondary);
     font-size: 3rem;
+    margin-top: 5%;
   }
 
   .linkIcon {

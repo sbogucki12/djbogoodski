@@ -55,7 +55,7 @@ function App() {
       <div className="container">
         <div className="logoRowContainer row">{display}</div>
         <a
-          href="https://soundcloud.com/sbogucki12"
+          href="https://soundcloud.com/djbogoodski"
           target="_blank"
           rel="noreferrer noopener"
           className="buttonRightSoundCloudContainer row"
