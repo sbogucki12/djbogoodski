@@ -10,6 +10,14 @@
 
 ## Updates
 
+**July 20, 2021:**
+
+<ul>
+<li>Created an "About" component.</li>
+</ul>
+
+<img src="https://raw.githubusercontent.com/sbogucki12/djbogoodski/main/readmeFiles/aboutGIF.gif" />
+
 **July 13, 2021:**
 
 <ul>

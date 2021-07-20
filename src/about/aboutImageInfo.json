@@ -1,0 +1,40 @@
+{
+    "data": [
+        {
+            "id": 0,
+            "desktop": "/assets/djbogoodskibannerDesktop.jpg", 
+            "mobile": "/assets/djbogoodskibannerMobile.jpg",
+            "title": "DJ Bogoodski Logo"
+        },
+        {
+            "id": 1,
+            "desktop": "/assets/bogoodskipic0Desktop.jpg", 
+            "mobile": "/assets/bogoodskipic0Mobile.jpg",
+            "title": "DJ Bogoodski"
+        },
+        {
+            "id": 2,
+            "desktop": "/assets/bogoodskipic1Desktop.jpg", 
+            "mobile": "/assets/bogoodskipic1Mobile.jpg",
+            "title": "DJ Bogoodski"
+        },
+        {
+            "id": 3,
+            "desktop": "/assets/bogoodskipic2Desktop.jpg", 
+            "mobile": "/assets/bogoodskipic2Mobile.jpg",
+            "title": "DJ Bogoodski"
+        },
+        {
+            "id": 4,
+            "desktop": "/assets/bogoodskipic3Desktop.jpg", 
+            "mobile": "/assets/bogoodskipic3Mobile.jpg",
+            "title": "DJ Bogoodski"
+        },
+        {
+            "id": 5,
+            "desktop": "/assets/bogoodskipic4Desktop.jpg", 
+            "mobile": "/assets/bogoodskipic4Mobile.jpg",
+            "title": "DJ Bogoodski"
+        }
+    ]
+}

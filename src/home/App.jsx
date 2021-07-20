@@ -6,45 +6,54 @@ import {
   faInstagram,
   faTwitch,
 } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faIdCardAlt } from "@fortawesome/free-solid-svg-icons";
 import LogoMain from "./LogoMain";
 import Contact from "../contact/Contact";
 import Highlight from "../highlight/Highlight";
 import HighlightRow from "../highlight/HighlightRow";
+import About from "../about/About";
 import Header from "./Header";
 
 function App() {
-  const [view, setView] = useState("home");
+  const [view, setView] = useState("Home");
 
   let display;
 
   switch (view) {
-    case "contact":
+    case "Contact":
       display = <Contact />;
       break;
-    case "highlight":
+    case "Highlight":
       display = <Highlight />;
+      break;
+    case "About":
+      display = <About />;
+      break;
+    case "Home":
+      display = <LogoMain />;
       break;
     default:
       display = <LogoMain />;
   }
 
-  const handleContactClick = () => {
-    if (view === "contact") {
-      setView("home");
-    } else setView("contact");
-  };
-
-  const handleHighlightClick = () => {
-    if (view === "highlight") {
-      setView("home");
-    } else setView("highlight");
+  const handleClick = (selectedView) => {
+    setView(selectedView);
   };
 
   let contact = "Contact";
+  let about = "About";
+  let highlight = "Highlight";
 
-  if (view === "contact") {
+  if (view === "Contact") {
     contact = "Home";
+  }
+
+  if (view === "About") {
+    about = "Home";
+  }
+
+  if (view === "Highlight") {
+    highlight = "Home";
   }
 
   return (
@@ -89,18 +98,28 @@ function App() {
         </a>
         <div
           className="buttonRightContactContainer row"
-          onClick={() => handleContactClick()}
+          onClick={() => handleClick(contact)}
         >
           <FontAwesomeIcon icon={faEnvelope} className="linkIcon" />
           {contact}
         </div>
-        <div className="div8" />
+        <div
+          className="buttonRightAboutContainer row"
+          onClick={() => handleClick(about)}
+        >
+          <FontAwesomeIcon
+            icon={faIdCardAlt}
+            className="linkIcon"
+            style={{ color: "black" }}
+          />
+          {about}
+        </div>
         <div className="div9" />
         <div className="div10" />
         <div className="div11" />
         <div
           className="highlightRowContainer row"
-          onClick={() => handleHighlightClick()}
+          onClick={() => handleClick(highlight)}
         >
           <HighlightRow view={view} />
         </div>

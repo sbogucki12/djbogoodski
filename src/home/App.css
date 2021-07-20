@@ -36,7 +36,7 @@
     grid-template-columns: 60 40;
     grid-template-rows: repeat(8, 0.4fr) 0.3fr 0.1fr;
     grid-column-gap: 5px;
-    grid-row-gap: 5px;
+    grid-row-gap: 5px;    
   }
 
   .row {
@@ -55,6 +55,7 @@
     justify-content: center;
     border: 2px solid var(--secondary);
     box-shadow: 0px 2px 3px var(--primary);
+    
   }
 
   .highlightRowContainer {
@@ -125,7 +126,7 @@
   .buttonRightSoundCloudContainer {
     grid-area: 1 / 5 / 2 / 6;
     background-color: var(--primary);
-    box-shadow: -2px 3px 5px var(--primary-light);
+    box-shadow: 0px -2px 5px var(--primary);
     border: 1px solid var(--alternative);
     color: var(--secondary-light);
   }
@@ -138,7 +139,7 @@
     grid-area: 2 / 5 / 3 / 6;
     background-color: var(--secondary);
     border: 1px solid var(--primary);
-    box-shadow: -2px 3px 5px var(--primary-light);
+    box-shadow: 0px 2px 5px var(--primary-light);
     color: var(--primary);
   }
 
@@ -150,7 +151,7 @@
     grid-area: 3 / 5 / 4 / 6;
     background-color: var(--secondary-light);
     border: 1px solid var(--alternative);
-    box-shadow: -2px 3px 5px var(--primary-light);
+    box-shadow: 0px 1px 5px var(--primary-light);
     color: var(--primary);
   }
 
@@ -162,7 +163,7 @@
     grid-area: 4 / 5 / 5 / 6;
     background-color: var(--alternative);
     border: 1px solid var(--secondary-light);
-    box-shadow: -2px 1px 5px var(--primary);
+    box-shadow: 0px 1px 5px var(--primary);
     color: var(--primary);
   }
 
@@ -170,9 +171,18 @@
     box-shadow: 0px 3px 5px var(--alternative);
   }
 
-  .div8 {
+  .buttonRightAboutContainer {
     grid-area: 5 / 5 / 6 / 6;
+    background-color: var(--secondary-light);
+    border: 1px solid var(--secondary);
+    box-shadow: 0px 2px 5px var(--primary);
+    color: var(--alternative);
   }
+
+  .buttonRightAboutContainer:active {
+    box-shadow: 0px 3px 5px var(--alternative);
+  }
+
   .div9 {
     grid-area: 6 / 5 / 7 / 6;
   }
@@ -278,6 +288,12 @@
   }
   .buttonRightContactContainer {
     /*background-color: var(--neongreen);*/
+    border: 3px solid var(--primary);
+    color: var(--primary);
+    justify-content: flex-start;
+    padding-left: 5%;    
+  }
+  .buttonRightAboutContainer{
     border: 3px solid var(--primary);
     color: var(--primary);
     justify-content: flex-start;

@@ -1,0 +1,54 @@
+.aboutContainer {
+    display: flex; 
+    color: var(--alternative);
+    min-height: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;    
+    padding-top: 5%;
+}
+
+.aboutTitleContainer {    
+    color: var(--primary);
+    padding: 10px;
+    font-size: x-large;
+    background-color: #e7dfdd1f;
+    box-shadow: -1px 2px 5px var(--alternative);   
+    border: 2px solid var(--secondary);
+    border-radius: 5%;
+    font-family: "Righteous", cursive;
+    -webkit-text-stroke: 1px var(--secondary);        
+}
+
+.aboutTextContainer {
+    color: var(--alternative);    
+    background-color: #e7dfdd1f;
+    box-shadow: -1px 2px 5px var(--alternative);   
+    border: 2px solid var(--secondary);
+    border-radius: 5%;  
+    text-align: center;
+    font-size: small; 
+    padding: 5px;
+    margin: 5%
+}
+
+.aboutTextContainer a {
+    text-decoration: none;
+    color: var(--secondary);
+    font-weight: bolder;
+}
+
+.pictureGridContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.imageStyle {
+    border: 5px solid var(--secondary);
+    border-radius: 5%;
+    margin: 5px;
+    box-shadow: -2px 3px 5px var(--primary-light);
+}

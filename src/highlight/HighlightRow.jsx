@@ -1,9 +1,23 @@
 import "./highlight.css";
 import highlightData from "./cheatcodevol8.json";
-import { Fragment, useState } from "react";
+import { Fragment, useState, useEffect } from "react";
 
 const HighlightRow = (props) => {
   const [viewportWidth, setViewportWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    window.addEventListener(
+      "resize",
+      (event) => {
+        setViewportWidth(event.target.innerWidth);
+
+        return () => {
+          window.removeEventListener("resize");
+        };
+      },
+      [window.innerWidth]
+    );
+  });
 
   let image = highlightData.image;
   let fontSize = "1rem";
@@ -25,7 +39,7 @@ const HighlightRow = (props) => {
     </Fragment>
   );
 
-  if (view === "highlight") {
+  if (view === "Highlight") {
     text = (
       <Fragment>
         <button className="captchaSubmitButton">Home</button>
