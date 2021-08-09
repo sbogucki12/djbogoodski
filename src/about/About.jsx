@@ -19,7 +19,15 @@ const About = () => {
           >
             professional technologist
           </a>
-          , working as a software developer, solutions architect, and manager.
+          , working as a{" "}
+          <a
+            href="https://github.com/sbogucki12"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            software developer
+          </a>
+          , solutions architect, and manager.
         </p>
         <p>
           Also, a runner. 🏃‍♂️ His #runstreak, dating to 2017, can be followed at{" "}

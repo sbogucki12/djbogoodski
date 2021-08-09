@@ -10,6 +10,14 @@
 
 ## Updates
 
+**Aug. 8, 2021:**
+
+<ul>
+<li>Added Cheat Code Volume 9.</li>
+</ul>
+
+<img src="https://raw.githubusercontent.com/sbogucki12/djbogoodski/main/readmeFiles/cheatcodevol9.jpg" />
+
 **July 20, 2021:**
 
 <ul>
