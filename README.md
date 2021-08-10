@@ -10,6 +10,16 @@
 
 ## Updates
 
+
+**Aug. 10, 2021:**
+
+<ul>
+<li>Added Music Archive.</li>
+</ul>
+
+<img src="https://raw.githubusercontent.com/sbogucki12/djbogoodski/main/readmeFiles/archive0GIF.gif" />
+
+
 **Aug. 8, 2021:**
 
 <ul>

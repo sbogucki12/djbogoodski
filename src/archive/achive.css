@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+.archiveComponentContainer {
+  color: var(--alternative);
+  display: flex;
+  justify-content: flex-start;
+  margin: 5%;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+}
+
+.archiveSelectionContainer {
+  margin-bottom: 5%;
+}
+
+.archiveTitleContainer {
+  background-color: var(--primary);
+  border: 3px solid var(--secondary);
+  border-radius: 3%;
+}
+
+.archiveCurrentEpisodeTitleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.archiveCurrentEpisodeSeriesTitle {
+  font-family: "Russo One", sans-serif;
+  color: var(--secondary);
+  -webkit-text-stroke: 0.1px var(--alternative);
+}
+
+.archiveCurrentEpisodeEpisodeTitle {
+  font-style: italic;
+  color: var(--secondary);
+}

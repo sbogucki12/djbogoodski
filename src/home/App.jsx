@@ -6,13 +6,18 @@ import {
   faInstagram,
   faTwitch,
 } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope, faIdCardAlt } from "@fortawesome/free-solid-svg-icons";
+import {
+  faEnvelope,
+  faIdCardAlt,
+  faFileAudio,
+} from "@fortawesome/free-solid-svg-icons";
 import LogoMain from "./LogoMain";
 import Contact from "../contact/Contact";
 import Highlight from "../highlight/Highlight";
 import HighlightRow from "../highlight/HighlightRow";
 import About from "../about/About";
 import Header from "./Header";
+import Archive from "../archive/Archive";
 
 function App() {
   const [view, setView] = useState("Home");
@@ -32,6 +37,9 @@ function App() {
     case "Home":
       display = <LogoMain />;
       break;
+    case "Archive":
+      display = <Archive />;
+      break;
     default:
       display = <LogoMain />;
   }
@@ -43,6 +51,7 @@ function App() {
   let contact = "Contact";
   let about = "About";
   let highlight = "Highlight";
+  let archive = "Archive";
 
   if (view === "Contact") {
     contact = "Home";
@@ -54,6 +63,10 @@ function App() {
 
   if (view === "Highlight") {
     highlight = "Home";
+  }
+
+  if (view === "Archive") {
+    archive = "Home";
   }
 
   return (
@@ -114,7 +127,13 @@ function App() {
           />
           {about}
         </div>
-        <div className="div9" />
+        <div
+          className="buttonRightArchiveContainer row"
+          onClick={() => handleClick(archive)}
+        >
+          <FontAwesomeIcon icon={faFileAudio} className="linkIcon" />
+          {archive}
+        </div>
         <div className="div10" />
         <div className="div11" />
         <div

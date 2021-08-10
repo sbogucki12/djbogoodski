@@ -1,0 +1,85 @@
+{
+  "data": [
+    {
+      "id": 0,
+      "date": "Aug 2021",
+      "series": "Cheat Code Radio",
+      "episode": "Volume 9",
+      "tracklist": ["tracks"],
+      "soundCloudTrackNumber": "1102648948",
+      "soundCloudLinkDirect": "url"
+    },
+    {
+      "id": 1,
+      "date": "Jul 2021",
+      "series": "Cheat Code Radio",
+      "episode": "Volume 8",
+      "tracklist": ["tracks"],
+      "soundCloudTrackNumber": "1067778601",
+      "soundCloudLinkDirect": "url"
+    },
+    {
+      "id": 2,
+      "date": "May 2020",
+      "series": "Cheat Code Radio",
+      "episode": "Volume 7",
+      "tracklist": ["tracks"],
+      "soundCloudTrackNumber": "813546247",
+      "soundCloudLinkDirect": "url"
+    },
+    {
+      "id": 3,
+      "date": "Apr 2020",
+      "series": "Cheat Code Radio",
+      "episode": "Volume 6",
+      "tracklist": ["tracks"],
+      "soundCloudTrackNumber": "808301716",
+      "soundCloudLinkDirect": "url"
+    },
+    {
+      "id": 4,
+      "date": "Sep 2019",
+      "series": "Cheat Code Radio",
+      "episode": "Volume 5",
+      "tracklist": ["tracks"],
+      "soundCloudTrackNumber": "675342875",
+      "soundCloudLinkDirect": "url"
+    },
+    {
+      "id": 5,
+      "date": "Jul 2019",
+      "series": "Cheat Code Radio",
+      "episode": "Volume 4",
+      "tracklist": ["tracks"],
+      "soundCloudTrackNumber": "654152738",
+      "soundCloudLinkDirect": "url"
+    },
+    {
+      "id": 6,
+      "date": "Jun 2019",
+      "series": "Cheat Code Radio",
+      "episode": "Volume 3",
+      "tracklist": ["tracks"],
+      "soundCloudTrackNumber": "650844842",
+      "soundCloudLinkDirect": "url"
+    },
+    {
+      "id": 7,
+      "date": "Apr 2019",
+      "series": "Cheat Code Radio",
+      "episode": "Volume 2",
+      "tracklist": ["tracks"],
+      "soundCloudTrackNumber": "609949467",
+      "soundCloudLinkDirect": "url"
+    },
+    {
+      "id": 8,
+      "date": "Mar 2019",
+      "series": "Cheat Code Radio",
+      "episode": "Volume 1",
+      "tracklist": ["tracks"],
+      "soundCloudTrackNumber": "602485644",
+      "soundCloudLinkDirect": "url"
+    }
+  ]
+}
