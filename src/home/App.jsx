@@ -19,29 +19,37 @@ import About from "../about/About";
 import Header from "./Header";
 import Archive from "../archive/Archive";
 
-function App() {
-  const [view, setView] = useState("Home");
-
-  let display;
+function App() {  
+  let pathname = window.location.pathname.substring(1);
+  let pathNameFirstLetter = pathname.charAt(0).toUpperCase();
+  let pathnameEdited = pathNameFirstLetter + pathname.substring(1);
+  const [view, setView] = useState(pathnameEdited);  
+  let display;  
 
   switch (view) {
     case "Contact":
-      display = <Contact />;
+      display = <Contact />;      
+      window.history.pushState('Contact', 'Contact', '/contact');
       break;
-    case "Highlight":
-      display = <Highlight />;
+    case "New":
+      display = <Highlight />;      
+      window.history.pushState('New', 'New', '/new');
       break;
     case "About":
-      display = <About />;
+      display = <About />;      
+      window.history.pushState('About', 'About', '/about');
       break;
     case "Home":
-      display = <LogoMain />;
+      display = <LogoMain />;      
+      window.history.pushState('Home', 'Home', '/home');
       break;
     case "Archive":
-      display = <Archive />;
+      display = <Archive />;      
+      window.history.pushState('Archive', 'Archive', '/archive');
       break;
     default:
-      display = <LogoMain />;
+      display = <LogoMain />;      
+      window.history.pushState('Home', 'Home', '/home');
   }
 
   const handleClick = (selectedView) => {
@@ -50,7 +58,7 @@ function App() {
 
   let contact = "Contact";
   let about = "About";
-  let highlight = "Highlight";
+  let highlight = "New";
   let archive = "Archive";
 
   if (view === "Contact") {
@@ -61,7 +69,7 @@ function App() {
     about = "Home";
   }
 
-  if (view === "Highlight") {
+  if (view === "New") {
     highlight = "Home";
   }
 

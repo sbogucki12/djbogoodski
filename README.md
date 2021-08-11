@@ -11,6 +11,20 @@
 ## Updates
 
 
+
+**Aug. 11, 2021:**
+
+<ul>
+<li>Refined the custom routing.</li>
+<ul>
+<li>Users can navigate by changing pathname in URL. So, now "pages" can be bookmarked.</li>
+<li>Users can navigate by clicking around. Pathname updates accordingly.</li>
+</ul>
+</ul>
+
+<img src="https://raw.githubusercontent.com/sbogucki12/djbogoodski/main/readmeFiles/routingGIF.gif" />
+<img src="https://raw.githubusercontent.com/sbogucki12/djbogoodski/main/readmeFiles/routingJPG.jpg" />
+
 **Aug. 10, 2021:**
 
 <ul>

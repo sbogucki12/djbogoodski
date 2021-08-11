@@ -39,7 +39,7 @@ const HighlightRow = (props) => {
     </Fragment>
   );
 
-  if (view === "Highlight") {
+  if (view === "New") {
     text = (
       <Fragment>
         <button className="captchaSubmitButton">Home</button>
