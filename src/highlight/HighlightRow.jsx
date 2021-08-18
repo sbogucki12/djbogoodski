@@ -1,5 +1,5 @@
 import "./highlight.css";
-import highlightData from "./cheatcodevol9.json";
+import highlightData from "./cheatcodevol10.json";
 import { Fragment, useState, useEffect } from "react";
 
 const HighlightRow = (props) => {
@@ -35,7 +35,7 @@ const HighlightRow = (props) => {
   const view = props.view;
   let text = (
     <Fragment>
-      <span>Now Streaming:</span> <span>Cheat Code Radio vol. 9</span>
+      <span>Now Streaming:</span> <span>Cheat Code Radio vol. 10</span>
     </Fragment>
   );
 
@@ -66,7 +66,7 @@ const HighlightRow = (props) => {
             justifySelf: "flex-start",
           }}
           className="highlightImage"
-          alt="Cheat Code volume 9"
+          alt="Cheat Code volume 10"
         />
       </div>
       <div style={{ width: "40%", fontSize: fontSize }}>{text}</div>
