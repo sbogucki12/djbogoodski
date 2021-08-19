@@ -193,9 +193,23 @@
   .buttonRightArchiveContainer:active {
     box-shadow: -2px 3px 5px var(--primary);
   }
-  .div10 {
+
+  .buttonRightTwitterContainer {
     grid-area: 7 / 5 / 8 / 6;
+    background-color: var(--primary-light);
+    border: 3px solid var(--secondary-light);
+    box-shadow: 0px 2px 5px var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: var(--alternative);
+    text-decoration: none;
   }
+
+  .buttonRightTwitterContainer:active {
+    box-shadow: -2px 3px 5px var(--primary);
+  }
+  
   .div11 {
     grid-area: 8 / 5 / 9 / 6;
   }
@@ -311,9 +325,20 @@
     border: 3px solid var(--primary);
     color: var(--primary);
     justify-content: flex-start;
-    padding-left: 5%;
-    margin-bottom: 5px;
+    padding-left: 5%;    
   }
+
+  .buttonRightTwitterContainer {
+    /*background-color: var(--fushcia);*/
+    border: 3px solid var(--primary);
+    color: var(--primary);
+    justify-content: flex-start;
+    padding-left: 5%;    
+    margin-bottom: 5px;
+    text-decoration: none;
+    background-color: var(--secondary-light);
+  }
+
   .highlightRowContainer {
     padding-top: 1px;
     background: rgb(152, 135, 143);

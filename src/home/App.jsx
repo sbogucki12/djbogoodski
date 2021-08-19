@@ -5,6 +5,7 @@ import {
   faSoundcloud,
   faInstagram,
   faTwitch,
+  faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 import {
   faEnvelope,
@@ -19,37 +20,37 @@ import About from "../about/About";
 import Header from "./Header";
 import Archive from "../archive/Archive";
 
-function App() {  
+function App() {
   let pathname = window.location.pathname.substring(1);
   let pathNameFirstLetter = pathname.charAt(0).toUpperCase();
   let pathnameEdited = pathNameFirstLetter + pathname.substring(1);
-  const [view, setView] = useState(pathnameEdited);  
-  let display;  
+  const [view, setView] = useState(pathnameEdited);
+  let display;
 
   switch (view) {
     case "Contact":
-      display = <Contact />;      
-      window.history.pushState('Contact', 'Contact', '/contact');
+      display = <Contact />;
+      window.history.pushState("Contact", "Contact", "/contact");
       break;
     case "New":
-      display = <Highlight />;      
-      window.history.pushState('New', 'New', '/new');
+      display = <Highlight />;
+      window.history.pushState("New", "New", "/new");
       break;
     case "About":
-      display = <About />;      
-      window.history.pushState('About', 'About', '/about');
+      display = <About />;
+      window.history.pushState("About", "About", "/about");
       break;
     case "Home":
-      display = <LogoMain />;      
-      window.history.pushState('Home', 'Home', '/home');
+      display = <LogoMain />;
+      window.history.pushState("Home", "Home", "/home");
       break;
     case "Archive":
-      display = <Archive />;      
-      window.history.pushState('Archive', 'Archive', '/archive');
+      display = <Archive />;
+      window.history.pushState("Archive", "Archive", "/archive");
       break;
     default:
-      display = <LogoMain />;      
-      window.history.pushState('Home', 'Home', '/home');
+      display = <LogoMain />;
+      window.history.pushState("Home", "Home", "/home");
   }
 
   const handleClick = (selectedView) => {
@@ -142,7 +143,17 @@ function App() {
           <FontAwesomeIcon icon={faFileAudio} className="linkIcon" />
           {archive}
         </div>
-        <div className="div10" />
+        <a
+          href="https://twitter.com/bogoodski"
+          target="_blank"
+          rel="noreferrer noopener"
+          className="buttonRightTwitterContainer"
+        >
+          <div>
+            <FontAwesomeIcon icon={faTwitter} className="linkIcon" />
+            Twitter
+          </div>
+        </a>
         <div className="div11" />
         <div
           className="highlightRowContainer row"
