@@ -1,5 +1,5 @@
 import "./highlight.css";
-import highlightData from "./cheatcodevol10.json";
+import highlightData from "./cheatCodeVol11.json";
 import { Fragment, useState, useEffect } from "react";
 
 const HighlightRow = (props) => {
@@ -35,7 +35,7 @@ const HighlightRow = (props) => {
   const view = props.view;
   let text = (
     <Fragment>
-      <span>Now Streaming:</span> <span>Cheat Code Radio vol. 10</span>
+      <span>Now Streaming:</span> <span>Cheat Code Radio vol. 11</span>
     </Fragment>
   );
 

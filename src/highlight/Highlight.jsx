@@ -1,4 +1,4 @@
-import highlightData from "./cheatcodevol10.json";
+import highlightData from "./cheatCodeVol11.json";
 import "./highlight.css";
 
 const Highlight = () => {
@@ -15,17 +15,17 @@ const Highlight = () => {
         src={highlightData.image}
         style={{ width: 250, height: "70%", borderRadius: 8 }}
         className="highlightImage"
-        alt="Cheat Code Radio volume 10"
+        alt="Cheat Code Radio volume 11"
       />
       <iframe
-        title="Cheat Code Radio Volume 10 on SoundCloud"
+        title="Cheat Code Radio Volume 11 on SoundCloud"
         width="100%"
         height="300"
         scrolling="no"
         frameBorder="no"
         allow="autoplay"
         style={{ marginTop: "20px" }}
-        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1107930505&color=%23985e6d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1117288693&color=%23985e6d&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
       ></iframe>
       <div
         style={{
@@ -56,13 +56,13 @@ const Highlight = () => {
         </a>{" "}
         ·{" "}
         <a
-          href="https://soundcloud.com/djbogoodski/cheat-code-radio-volume-10"
-          title="Cheat Code Radio Vol. 10"
+          href="https://soundcloud.com/djbogoodski/cheat-code-radio-volume-11"
+          title="Cheat Code Radio Vol. 11"
           target="_blank"
           rel="noreferrer noopener"
           style={{ color: "#cccccc", textDecoration: "none" }}
         >
-          Cheat Code Radio Vol. 10
+          Cheat Code Radio Vol. 11
         </a>
       </div>
       <div className="highlightTracksContainer">
